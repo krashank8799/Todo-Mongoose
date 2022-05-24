@@ -1,0 +1,54 @@
+     body {
+         display: flex;
+         height: 100%;
+         margin: 0px;
+         padding: 0px;
+     }
+     
+     #leftDiv {
+         flex: 1;
+         height: 850px;
+         background: rgb(149, 182, 201);
+     }
+     
+     #rightDiv {
+         flex: 1;
+         height: 850px;
+         background: rgb(34, 139, 153);
+     }
+     
+     textarea {
+         width: 100%;
+         height: 20%;
+         border-radius: 15px;
+     }
+     
+     h1 {
+         text-align: center;
+         color: rgb(54, 44, 187);
+     }
+     
+     #usernameandlogout {
+         text-align: center;
+     }
+     
+     #name {
+         font-family: 'Courier New', Courier, monospace;
+         color: rgb(255, 187, 0);
+     }
+     
+     button:hover {
+         opacity: 0.7;
+     }
+     
+     button {
+         background-color: rgb(149, 182, 201);
+         width: 25%;
+         color: rgb(0, 60, 255);
+         padding: 15px;
+         margin: 10px 0px;
+         border: 2px orange;
+         cursor: pointer;
+         font-size: 20;
+         font-weight: bold;
+     }
