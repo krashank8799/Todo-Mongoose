@@ -10,7 +10,7 @@ db.start();
 
 const MongoClient = mongodb.MongoClient;
 
-const url = "mongodb+srv://Krashank:k12345678@cluster0.7moxc.mongodb.net/todoDb?retryWrites=true&w=majority"
+const url = "mongodb+srv://<YOUR USERNAME>:<YOUR PASSWORD>@cluster0.7moxc.mongodb.net/todoDb?retryWrites=true&w=majority"
 const client = new MongoClient(url);
 
 const dbName = 'myTodoList';
